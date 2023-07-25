@@ -1,0 +1,16 @@
+string firstName;
+string lastName;
+
+Console.WriteLine(" Enter first name");
+firstName=Console.ReadLine();
+
+Console.WriteLine("Enter Second name");
+lastName=Console.ReadLine();
+if(firstName==lastName)
+{
+    Console.WriteLine("names are same");
+}
+else
+{
+    Console.WriteLine("names are different");
+}
