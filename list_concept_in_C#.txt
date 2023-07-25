@@ -1,0 +1,9 @@
+List<int> MyNumber = new List<int>();
+MyNumber.Add(0);
+MyNumber.Add(1);
+MyNumber.Add(2);
+
+foreach (var item in MyNumber)
+{
+    Console.WriteLine(item);
+}
