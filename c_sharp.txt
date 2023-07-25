@@ -1,0 +1,11 @@
+int valueOne;
+int valueTwo;
+
+Console.WriteLine("Enter value one");
+ valueOne= Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("enter value two");
+valueTwo=Convert.ToInt32(Console.ReadLine());
+
+int Result=valueOne+valueTwo;
+Console.WriteLine("the result is " +Result);
